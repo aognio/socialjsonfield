@@ -210,7 +210,7 @@ You will be able to use tools like [AJV](https://ajv.js.org/), [`jsonschema`](ht
 - [ ] JS + Python validation libs
 - [ ] Django/Rails plugins
 - [ ] GitHub Pages site
-- [ ] Logo & identity
+- [x] Logo & identity
 - [ ] Outreach to OSS maintainers
 
 ---
