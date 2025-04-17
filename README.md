@@ -1,3 +1,5 @@
+![Logo](media/logos/socialjsonfield-3d.png)
+
 # SocialJSONField
 
 > A portable schema for describing multiple social media accounts per entity using a standardized JSON format.  
