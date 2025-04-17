@@ -1,0 +1,365 @@
+{
+  "platforms": {
+    "bandcamp": {
+      "slug": "bandcamp",
+      "name": "Bandcamp",
+      "description": "A platform for independent musicians and labels to share and sell music directly to fans.",
+      "website": "https://bandcamp.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://{handle}.bandcamp.com"
+      }
+    },
+    "behance": {
+      "slug": "behance",
+      "name": "Behance",
+      "description": "A platform owned by Adobe for showcasing and discovering creative work.",
+      "website": "https://www.behance.net",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.behance.net/{handle}"
+      }
+    },
+    "bluesky": {
+      "slug": "bluesky",
+      "name": "Bluesky",
+      "description": "A decentralized social network project initiated by Jack Dorsey.",
+      "website": "https://bsky.app",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://bsky.app/profile/{handle}"
+      }
+    },
+    "deviantart": {
+      "slug": "deviantart",
+      "name": "DeviantArt",
+      "description": "An online community showcasing various forms of user-made artwork.",
+      "website": "https://www.deviantart.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.deviantart.com/{handle}"
+      }
+    },
+    "dribbble": {
+      "slug": "dribbble",
+      "name": "Dribbble",
+      "description": "A platform for designers to showcase their work and connect with creative professionals.",
+      "website": "https://dribbble.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://dribbble.com/{handle}"
+      }
+    },
+    "facebook": {
+      "slug": "facebook",
+      "name": "Facebook",
+      "description": "A social networking platform connecting people and communities.",
+      "website": "https://facebook.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://facebook.com/{handle}"
+      }
+    },
+    "flickr": {
+      "slug": "flickr",
+      "name": "Flickr",
+      "description": "An image and video hosting service known for its photographer communities.",
+      "website": "https://www.flickr.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.flickr.com/people/{handle}"
+      }
+    },
+    "gitea": {
+      "slug": "gitea",
+      "name": "Gitea",
+      "description": "A community-managed lightweight code hosting solution written in Go.",
+      "website": "https://gitea.com",
+      "country_of_origin": "Global (Open Source)",
+      "uri_templates": {
+        "account": "https://gitea.com/{handle}"
+      }
+    },
+    "github": {
+      "slug": "github",
+      "name": "GitHub",
+      "description": "The largest platform for hosting and collaborating on Git repositories.",
+      "website": "https://github.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://github.com/{handle}"
+      }
+    },
+    "gitlab": {
+      "slug": "gitlab",
+      "name": "GitLab",
+      "description": "An open-core DevOps platform for managing Git repositories and CI/CD pipelines.",
+      "website": "https://gitlab.com",
+      "country_of_origin": "Netherlands",
+      "uri_templates": {
+        "account": "https://gitlab.com/{handle}"
+      }
+    },
+    "instagram": {
+      "slug": "instagram",
+      "name": "Instagram",
+      "description": "A photo and video sharing app owned by Meta.",
+      "website": "https://instagram.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://instagram.com/{handle}"
+      }
+    },
+    "kakaotalk": {
+      "slug": "kakaotalk",
+      "name": "KakaoTalk",
+      "description": "A South Korean mobile messaging app with social and commerce features.",
+      "website": "https://www.kakaocorp.com/service/KakaoTalk",
+      "country_of_origin": "South Korea",
+      "uri_templates": {
+        "account": "https://open.kakao.com/o/{handle}"
+      }
+    },
+    "linkedin": {
+      "slug": "linkedin",
+      "name": "LinkedIn",
+      "description": "A professional networking platform for job seekers and businesses.",
+      "website": "https://linkedin.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "profile": "https://linkedin.com/in/{handle}"
+      }
+    },
+    "linkedin_company": {
+      "slug": "linkedin_company",
+      "name": "LinkedIn Company",
+      "description": "Company and brand pages on LinkedIn for networking and hiring.",
+      "website": "https://linkedin.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "company": "https://linkedin.com/company/{handle}"
+      }
+    },
+    "mastodon": {
+      "slug": "mastodon",
+      "name": "Mastodon",
+      "description": "A decentralized open-source social network based on federated servers.",
+      "website": "https://joinmastodon.org",
+      "country_of_origin": "Germany",
+      "uri_templates": {
+        "account": "https://{instance}/@{handle}"
+      }
+    },
+    "medium": {
+      "slug": "medium",
+      "name": "Medium",
+      "description": "A platform for reading and writing long-form content and blogs.",
+      "website": "https://medium.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://medium.com/@{handle}"
+      }
+    },
+    "onlyfans": {
+      "slug": "onlyfans",
+      "name": "OnlyFans",
+      "description": "A subscription-based platform popular with creators offering exclusive content.",
+      "website": "https://onlyfans.com",
+      "country_of_origin": "United Kingdom",
+      "uri_templates": {
+        "account": "https://onlyfans.com/{handle}"
+      }
+    },
+    "patreon": {
+      "slug": "patreon",
+      "name": "Patreon",
+      "description": "A membership platform that helps creators get paid directly by fans.",
+      "website": "https://www.patreon.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.patreon.com/{handle}"
+      }
+    },
+    "pinterest": {
+      "slug": "pinterest",
+      "name": "Pinterest",
+      "description": "A visual discovery engine for finding ideas like recipes and style inspiration.",
+      "website": "https://www.pinterest.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.pinterest.com/{handle}"
+      }
+    },
+    "quora": {
+      "slug": "quora",
+      "name": "Quora",
+      "description": "A question-and-answer platform where users can share knowledge.",
+      "website": "https://www.quora.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.quora.com/profile/{handle}"
+      }
+    },
+    "reddit": {
+      "slug": "reddit",
+      "name": "Reddit",
+      "description": "A network of communities based on people's interests.",
+      "website": "https://www.reddit.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.reddit.com/user/{handle}"
+      }
+    },
+    "snapchat": {
+      "slug": "snapchat",
+      "name": "Snapchat",
+      "description": "A multimedia messaging app known for disappearing content and AR filters.",
+      "website": "https://www.snapchat.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.snapchat.com/add/{handle}"
+      }
+    },
+    "soundcloud": {
+      "slug": "soundcloud",
+      "name": "SoundCloud",
+      "description": "An online audio distribution platform and music sharing website.",
+      "website": "https://soundcloud.com",
+      "country_of_origin": "Germany",
+      "uri_templates": {
+        "account": "https://soundcloud.com/{handle}"
+      }
+    },
+    "spotify": {
+      "slug": "spotify",
+      "name": "Spotify",
+      "description": "A digital music service that gives access to millions of songs and podcasts.",
+      "website": "https://spotify.com",
+      "country_of_origin": "Sweden",
+      "uri_templates": {
+        "account": "https://open.spotify.com/user/{handle}"
+      }
+    },
+    "stack_overflow": {
+      "slug": "stack_overflow",
+      "name": "Stack Overflow",
+      "description": "A Q&A website for professional and enthusiast programmers.",
+      "website": "https://stackoverflow.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://stackoverflow.com/users/{handle}"
+      }
+    },
+    "steam": {
+      "slug": "steam",
+      "name": "Steam",
+      "description": "A digital distribution platform for video games and software.",
+      "website": "https://store.steampowered.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://steamcommunity.com/id/{handle}"
+      }
+    },
+    "substack": {
+      "slug": "substack",
+      "name": "Substack",
+      "description": "A platform that lets writers publish paid email newsletters.",
+      "website": "https://substack.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://{handle}.substack.com"
+      }
+    },
+    "telegram": {
+      "slug": "telegram",
+      "name": "Telegram",
+      "description": "A cloud-based instant messaging app emphasizing speed and privacy.",
+      "website": "https://telegram.org",
+      "country_of_origin": "Russia",
+      "uri_templates": {
+        "account": "https://t.me/{handle}"
+      }
+    },
+    "threads": {
+      "slug": "threads",
+      "name": "Threads",
+      "description": "A text-based conversation app developed by Meta as a Twitter alternative.",
+      "website": "https://www.threads.net",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.threads.net/@{handle}"
+      }
+    },
+    "tiktok": {
+      "slug": "tiktok",
+      "name": "TikTok",
+      "description": "A short-form video platform for creating and sharing content.",
+      "website": "https://tiktok.com",
+      "country_of_origin": "China",
+      "uri_templates": {
+        "account": "https://tiktok.com/@{handle}"
+      }
+    },
+    "tumblr": {
+      "slug": "tumblr",
+      "name": "Tumblr",
+      "description": "A microblogging and social networking website.",
+      "website": "https://tumblr.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://{handle}.tumblr.com"
+      }
+    },
+    "vimeo": {
+      "slug": "vimeo",
+      "name": "Vimeo",
+      "description": "A video-sharing platform catering to professionals and artists.",
+      "website": "https://vimeo.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://vimeo.com/{handle}"
+      }
+    },
+    "wechat": {
+      "slug": "wechat",
+      "name": "WeChat",
+      "description": "A Chinese multi-purpose messaging, social media, and mobile payment app.",
+      "website": "https://www.wechat.com",
+      "country_of_origin": "China",
+      "uri_templates": {
+        "account": "https://wechat.com/{handle}"
+      }
+    },
+    "x": {
+      "slug": "x",
+      "name": "X (formerly Twitter)",
+      "description": "The rebranded version of Twitter, now focused on AI and long-form content.",
+      "website": "https://x.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://x.com/{handle}"
+      }
+    },
+    "xing": {
+      "slug": "xing",
+      "name": "Xing",
+      "description": "A career-oriented social networking site mainly used in German-speaking countries.",
+      "website": "https://www.xing.com",
+      "country_of_origin": "Germany",
+      "uri_templates": {
+        "account": "https://www.xing.com/profile/{handle}"
+      }
+    },
+    "youtube": {
+      "slug": "youtube",
+      "name": "YouTube",
+      "description": "The most popular video-sharing platform for user-generated content.",
+      "website": "https://youtube.com",
+      "country_of_origin": "United States",
+      "uri_templates": {
+        "account": "https://www.youtube.com/@{handle}",
+        "channel": "https://www.youtube.com/channel/{handle}"
+      }
+    }
+  }
+}
