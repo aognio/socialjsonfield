@@ -16,6 +16,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Required fields: `platform`, `handle`, `uri_template`
 - Optional fields: `label`, `verified`, `meta`
 - README with purpose, schema, and integration examples
+- platforms.json file with canonical slugs and URI templates
 - Sample JSON files in the `examples/` folder
 - Basic repo structure for future package implementations
 - Call for contributions to framework-specific validators (Django, Rails, etc.)
